@@ -1,9 +1,27 @@
-#jawajawajawa {
-    width :100% ;
+.image {
+    width: 100%;
+    max-width: 500px;}
+
+img.focus {
+  transform: scale(1.25);
 }
-#bogor {
-    width: 100% ;
+
+nav ul {
+    background-color: tomato;
+    border-style: solid;
+    border-color: mediumvioletred;
+    border-width: 2px;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
 }
-#one_boy {
-width: 100% ;
-}
+
+nav ul li {
+display: inline;
+margin-right: 10px;
+margin-left: 10px;
+text-align: center;
+list-style-type: none;
+margin-right: 0.5em;
+margin-left: 0.5em;
+} 
